@@ -1,0 +1,4 @@
+data/config/agent/bin/fd
+data/config/agent/bin/rg
+data/config/agent/auth.json
+data/config/agent/settings.json

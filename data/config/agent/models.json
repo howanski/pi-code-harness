@@ -1,0 +1,12 @@
+{
+  "providers": {
+    "localhost-llamacpp": {
+      "baseUrl": "http://192.168.66.226:8080/v1",
+      "api": "openai-completions",
+      "apiKey": "none",
+      "models": [
+        { "id": "whatever-model-is-loaded" }
+      ]
+    }
+  }
+}

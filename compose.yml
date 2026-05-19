@@ -1,0 +1,19 @@
+services:
+  picode:
+    build:
+      context: ./data/docker
+      dockerfile: Dockerfile
+    container_name: "picode"
+    environment:
+      - EDITOR=vim
+    user: "1000:1000"
+    volumes:
+      - ./data/docker:/picode:ro
+      - ./data/config:/home/picode/.pi:rw
+      - ./workdir:/home/picode/workdir:rw
+    restart: no
+    logging:
+      driver: json-file
+      options:
+        max-size: "5m"
+        max-file: "2"
