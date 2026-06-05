@@ -1,3 +1,8 @@
+--------------------
+
+⚠️ No longer under development, features have been moved to [GlacierFlow](https://github.com/howanski/GlacierFlow)
+
+--------------------
 # PiCode
 
 A containerized **pi.dev** harness with convenience scripts for both **interactive** and **autonomous** AI-assisted development workflows.
